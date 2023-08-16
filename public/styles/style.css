@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.header-p{
+    text-align: end;
+}
+
+.header-p a{
+    color: #333;
+    text-decoration: none;
+}
+
+.header-p a:hover{
+    text-decoration: underline;
+}
+
+.heading{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.flex-container{
+    width: 27%;
+    margin: auto;  
+    padding-top: 100px; 
+    text-align: center;
+}
+
+.img-link{
+    text-decoration: none;
+}
+
+.logo-img, .logo-text-img{
+    text-decoration: none;
+}
+
+.form-p{
+    opacity: 40%;
+}
+
+form{
+    text-align: start;
+    padding-left: 10px;
+}
+
+input{
+    width: 98%;
+    font-size: 15px;
+}
+
+.input-text{
+    height: 30px;
+}
+
+.form-btn{
+    padding-top: 30px;
+}
+
+.btn{
+    background-color: #ff0050;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #e80049;
+    color: white;
+}
+
+label{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    opacity: 80%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    margin-top: 92px;
+    height: 25vh;
+}
+
+.footer-p1, .footer-p2{
+    color: white;
+    opacity: .6;
+}
+
+.footer-p1{
+    text-align: start;
+}
+
+.footer-p2{
+    text-align: end;
+}
+
+span{
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.section-p{
+    color: #a6a6a6;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: white;
+}
+
+h2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    padding-top: 300px;
+    margin-bottom: 238.5px;
+    font-size: 2.5em;
+}
+
+@media (max-width: 480px){
+    /* body{
+        background-color: aqua;
+    } */
+    footer{
+        width: 100%;
+    }
+    .flex-container{
+        width: 70%;
+    }
+}
